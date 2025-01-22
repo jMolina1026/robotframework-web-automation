@@ -1,0 +1,5 @@
+# robotframework-web-automation
+robot_venv/
+report/
+robotframework/tests/examples/
+interactive_console_output.xml

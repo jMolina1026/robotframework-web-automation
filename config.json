@@ -1,0 +1,11 @@
+{
+  "base_url": "https://www.saucedemo.com",
+  "credentials": {
+    "username": "admin",
+    "password": "secret"
+  },
+  "browsers": {
+    "chrome": "chrome",
+    "firefox": "firefox"
+  }
+}
