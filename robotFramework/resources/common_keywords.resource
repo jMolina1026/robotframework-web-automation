@@ -56,6 +56,13 @@ Click The Element: ${element}
     [Documentation]    Clicks the element specified by the element_locator
     Click Element    ${element}
 
+Get The Element Count
+    [Documentation]    Test
+    [Arguments]    ${element}
+    ${element_count}    SeleniumLibrary.Get Element Count    ${element}
+    RETURN    ${element_count}
+
+
 #=================== ASSERTIONS ==========================
 
 Wait Until The Element: ${element}, Is Visible
