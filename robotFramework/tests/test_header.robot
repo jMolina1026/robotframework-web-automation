@@ -11,7 +11,7 @@ Testcase_001_Verify that the Header elements exist
     [Documentation]    Verifies that all necessary elements are in the header bar
     [Tags]             Sanity    Header
     Wait Until Element Is Visible    ${app_logo}
-    Element Should Be Visible        ${app_logo}              The $username_field is not on the page
-    Element Should Be Visible        ${burger_menu_button}    The $password_field is not on the page
-    Element Should Be Visible        ${shopping_cart}         The $login_button is not on the page
+    Element Should Be Visible        ${app_logo}              The $app_logo is not on the page
+    Element Should Be Visible        ${burger_menu_button}    The $burger_menu_button is not on the page
+    Element Should Be Visible        ${shopping_cart}         The $shopping_cart is not on the page
     Element Should Be Visible        ${sub_title}             The $sub_title is not on the page 

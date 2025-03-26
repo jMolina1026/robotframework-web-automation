@@ -37,7 +37,7 @@ Login Element: ${element}, Should Have Text
     Element: ${element}, Should Have Text    ${text}
 
 Login Element: ${element}, Should Be Visible
-    [Documentation]
+    [Documentation]    Asserts that the login element is visible on the page
     [Arguments]    ${error_message}
     Element: ${element}, Should Be Visible    ${error_message}
 
